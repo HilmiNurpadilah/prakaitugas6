@@ -138,6 +138,5 @@ def index():
         images_base64=images_base64,
         hasil_cluster_table=hasil_cluster_table
     )
-
-    if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000)
